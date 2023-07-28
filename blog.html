@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+<div class="container">
+    <div class="side-bar">
+        <nav>
+            <ul>
+                <li><a href="my.html">Home</a></li>
+                <li><a href="intro.html">My Intro</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Me</a></li>   
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="info-container">
+           <div class="blogcontainer">
+                <h1>Projects by Manish kumar</h1>
+                <div class="blogItem">
+                <h2>Artificial Intellegence Chatbot System</h2>
+                <p>The chatbots are the computer programs that use Natural Language to interact with users.<span id="dots">...</span><span id="more"> In this I used python and created a chatbot for medical purposes that can diagnose the disease. and provide details before consulting a doctor..
+                    The medical chat-bots functioning depends on Natural language processing that helps users to submit their problem about the health. The User can ask any personal query related to health care through 
+                    the chat-Bot without physically available to the 
+                    hospital. By Using Google API for voice-text and text voice conversion. Query is sent to ChatBot and gets 
+                    related answer and display answer on android app. 
+                    The Systems major concern behind developing this 
+                    web based platform is analysing customer's sentiment.
+                </span></p>
+                <button onclick="myFunction()" id="mybtn">Read more</button>
+                </div>
+
+                <div class="blogItem">
+                <h2>Toll Payment System</h2>
+                <p>I have created a portal using java language that accepts the toll payments ahead of their journey and that reflflects in our system. So that it is easy for people to move fast and make their journey successful.<span id="dots1">...</span><span id="more1"> The toll plaza collection system will be useful to the user who travel through the tolls by paying the amount to the tolls before head for the journey for a particular toll or for all tolls from one place to destination.
+                    First the user will give the travelling details of vehicle number, vehicle type and the destination. After the travelling details the user will give toll details of for which toll the user want to pay or for all tolls and the user can pay amount for single trip or return trip also available.
+                    If the user paid for the tolls then at the tolls the payment will be verified using rfid scanner(qr code)
+                    
+                </span></p>
+                <button onclick="myFunction1()" id="mybtn1">Read more</button>
+                </div>
+                <div class="blogItem">
+                    <h2>Personal Portfolio Project</h2>
+                    <p>I have created a portal using java language that accepts the toll payments ahead of their journey and that reflects in our system. So that it is easy for people to move fast and make their journey successful.<span id="dots2">...</span><span id="more2"> In this I used python and created a chatbot for medical purposes that can diagnose the disease and provide details before consulting a doctor..
+                    </span></p>
+                        <button onclick="myFunction2()" id="mybtn2">Read more</button>
+                </div>
+
+
+           </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("mybtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("mybtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("mybtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>
+

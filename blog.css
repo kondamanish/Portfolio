@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+.side-bar {
+     background-color: rgb(163, 160, 160);
+     width: 200px;
+    font-family: sans-serif;
+    height: 200vh;
+    cursor: pointer;
+}
+.side-bar nav {
+    padding: 22px;
+}
+.side-bar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0px;
+}
+.side-bar nav li a{
+    color: black;
+    text-decoration: none;
+}
+.blogItem {
+    margin: 20px;
+    font-family: sans-serif;
+}
+.blogItem p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.blogItem h2{
+    margin: 10px;
+}
+
+
+.blogcontainer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 23px;
+}
+
+#mybtn {
+    margin-top: 10px;
+    padding: 3px;
+    border-radius:7px ;
+    width: 77px;
+    font-size: 13px;
+    cursor:pointer;
+    margin-left: 10px;
+}
+#mybtn:hover {
+    background-color: rgb(66, 158, 237);
+    color: rgb(2, 7, 7);
+}
+
+ #more {
+    display: none;
+}
+    
+#mybtn1 {
+    margin-top: 10px;
+    padding: 3px;
+    border-radius:7px ;
+    width: 77px;
+    font-size: 13px;
+    cursor:pointer;
+    margin-left: 10px;
+}
+#mybtn1:hover {
+    background-color: rgb(66, 158, 237);
+    color: rgb(2, 7, 7);
+}
+
+ #more1 {
+    display: none;
+}
+
+#mybtn2 {
+    margin-top: 10px;
+    padding: 3px;
+    border-radius:7px ;
+    width: 77px;
+    font-size: 13px;
+    cursor:pointer;
+    margin-left: 10px;
+}
+#mybtn2:hover {
+    background-color: rgb(66, 158, 237);
+    color: rgb(2, 7, 7);
+}
+
+ #more2 {
+    display: none;
+}
